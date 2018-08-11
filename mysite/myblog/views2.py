@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.template import RequestContext, loader
 from myblog.models import Post
 
-def stub_view(request, *args, **kwargs):
+def stub_view(request, *args, **kwargs):F
     body = "Stub View\n\n"
     if args:
         body += "Args:\n"
